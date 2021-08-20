@@ -1,0 +1,200 @@
+body {
+    font-family: Montserrat, 'sans-serif';
+}
+
+.top-nav {
+    padding: 1rem 0;
+}
+
+.top-nav .contact, .contact-form .contact {
+    font-size: 12px;
+}
+
+.top-nav .social, .top-nav .contact, .contact-form .contact{
+    gap: 1rem;
+}
+
+.header {
+    background-image: url('/assets/img/banner-image.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-nav > .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white !important;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+.form-flex {
+    gap: 1rem;
+}
+
+button.button {
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+button.button-normal {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+}
+
+button.button-inverted {
+    background: #fff;
+    color: black;
+    border: none;
+}
+
+button.button-grey {
+    background: #fff;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.form-control::placeholder {
+    color: black;
+    font-size: 12px;
+}
+
+.categories img {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+}
+
+.communities > .container > .d-flex {
+    gap: 1rem;
+}
+
+.communities img, .properties img {
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+
+.find-out {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/StreetM.jpg');
+    background-size: cover;
+}
+
+.find-out-2 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/homew.jpg');
+    background-size: cover;
+}
+
+.find-out form, .find-out-2 form {
+    height: 50px;
+}
+
+.properties > .container > .d-flex {
+    gap: 1rem;
+}
+
+.properties button {
+    text-transform: none;
+}
+
+.properties button p {
+    margin: 0;
+}
+
+.bio {
+    overflow: hidden;
+}
+
+.bio > img {
+    object-fit: cover;
+
+}
+
+.contact-form {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/contact-form.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contact {
+    width: 50vw;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.carousel-control-prev {
+    width: 1rem;
+    left: -3rem;
+}
+
+.carousel-control-next {
+    width: 1rem;
+    right: -3rem;
+}
+
+.ico {
+    width: 24px;
+    height: 24px;
+}
+
+.ico-sm {
+    width: 16px;
+    height: 16px;
+}
+
+.testimonials__content {
+    font-size: 12px;
+}
+
+.carousel-indicators > li {
+    background: black;
+    border-radius: 50%;
+    display: block !important;
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 !important;
+    padding: 0;
+}
+
+@media screen and (max-width: 426px) {
+    .carousel-control-prev {
+        width: 1rem;
+        left: 0;
+    }
+    
+    .carousel-control-next {
+        width: 1rem;
+        right: 0;
+    }
+
+    .contact.mx-auto {
+        margin: 0;
+        width: 100%;
+    }
+
+    .testimonials, .bio {
+        padding: 1rem !important;
+    }
+
+    .find-out button, .find-out-2 button {
+        margin-top: 1rem;
+    }
+}
